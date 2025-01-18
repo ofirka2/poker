@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form Input Styles */
+  .inputs label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .inputs input {
+    width: 100px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; /* Input font size */
+    color: #333; /* Input text color */
+    background-color: #fdfdfd; /* Input background color */
+  }
+  
+  /* Table Styles */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+    font-size: 16px;
+  }
+  
+  td {
+    font-size: 14px;
+  }
+  
+  table input {
+    width: 80%; /* Table input width */
+    padding: 5px; /* Table input padding */
+    font-size: 13px; /* Table input font size */
+    color: #555; /* Table input text color */
+    background-color: #fff; /* Table input background color */
+    border: 1px solid #ccc; /* Table input border */
+    border-radius: 3px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button.remove-player {
+    background-color: #ff6347;
+  }
+  
+  button.remove-player:hover {
+    background-color: #e55347;
+  }
+  
+  /* Validation Messages */
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  /* Other styles remain the same */
+  
+  button.increase {
+    background-color: #28a745; /* Green */
+  }
+  
+  button.increase:hover {
+    background-color: #218838;
+  }
+  
+  button.decrease {
+    background-color: #dc3545; /* Red */
+  }
+  
+  button.decrease:hover {
+    background-color: #c82333;
+  }
+  #add-player {
+    margin-bottom: 15px;
+  }
+  #convert-chips {
+    margin-top: 15px;
+  }
+  
