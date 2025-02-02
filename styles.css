@@ -22,6 +22,11 @@ body {
   }
   
   /* Form Input Styles */
+
+.inputs {
+  display: flex;
+}
+
   .inputs label {
     display: block;
     margin-bottom: 5px;
